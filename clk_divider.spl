@@ -1,0 +1,8 @@
+[Inputs]
+clk_20MHz
+[Outputs]
+clk_1Hz
+[BiDir]
+[ATTRIBUTES]
+VeriModel clk_divider
+

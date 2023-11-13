@@ -1,0 +1,23 @@
+//OSC PIN
+NET "osc" LOC = P123;
+
+//RESET PIN
+NET "reset" LOC = P55;
+
+//VGA Sync
+NET "h_sync" LOC = P12;
+NET "v_sync" LOC = P10;
+
+//VGA RGB
+NET "vga_rgb(0)" LOC = P22;
+NET "vga_rgb(1)" LOC = P17;
+NET "vga_rgb(2)" LOC = P15;
+
+//Control
+NET "left" LOC = P45;
+NET "right" LOC = P46;
+NET "down" LOC = P47;
+NET "rotate" LOC = P48;
+NET "increment" LOC = P51;
+
+NET "rotate" CLOCK_DEDICATED_ROUTE = FALSE;

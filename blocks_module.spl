@@ -1,0 +1,12 @@
+[Inputs]
+=type[2:0]=
+=rot[1:0]=
+[Outputs]
+=pixels0[3:0]=
+=pixels1[3:0]=
+=pixels2[3:0]=
+=pixels3[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel blocks_module
+

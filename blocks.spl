@@ -1,0 +1,8 @@
+[Inputs]
+=type[2:0]=
+=rownum[1:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel blocks
+

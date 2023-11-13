@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\.Xilinx\Tetris_V2\Tetris.ncd
+OUTFILE=C:\.Xilinx\Tetris_V2\Tetris.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\.Xilinx\Tetris_V2
+LICENSE=WebPack
+USER_INFO=__0_0_0

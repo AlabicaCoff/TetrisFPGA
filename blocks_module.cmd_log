@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/.Xilinx/Tetris_V2/blocks_module.v -lang verilog -prj Tetris_V2 -o blocks_module.spl -module blocks_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 blocks_module.spl C:/.Xilinx/Tetris_V2/blocks_module.sym 

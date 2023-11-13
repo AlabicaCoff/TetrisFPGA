@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Nov 10 07:28:17 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "osc" LOCATE = SITE "P123" LEVEL 1;
+COMP "left" LOCATE = SITE "P45" LEVEL 1;
+COMP "down" LOCATE = SITE "P47" LEVEL 1;
+COMP "vga_rgb<0>" LOCATE = SITE "P22" LEVEL 1;
+COMP "vga_rgb<1>" LOCATE = SITE "P17" LEVEL 1;
+COMP "vga_rgb<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "right" LOCATE = SITE "P46" LEVEL 1;
+COMP "reset" LOCATE = SITE "P55" LEVEL 1;
+COMP "increment" LOCATE = SITE "P51" LEVEL 1;
+COMP "h_sync" LOCATE = SITE "P12" LEVEL 1;
+COMP "v_sync" LOCATE = SITE "P10" LEVEL 1;
+COMP "rotate" LOCATE = SITE "P48" LEVEL 1;
+PIN rotate_pin<0> = BEL "rotate" PINNAME PAD;
+PIN "rotate_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

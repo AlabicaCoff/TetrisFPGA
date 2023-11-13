@@ -1,0 +1,1017 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Tetris.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Tetris.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Tetris"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : Tetris
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\vga_driver.v" into library work
+Parsing module <vga_driver>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\posedge_detect.v" into library work
+Parsing module <posedge_detect>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\debounce.v" into library work
+Parsing module <debounce>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\clk_divider.v" into library work
+Parsing module <clk_divider>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\chars.v" into library work
+Parsing module <chars>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\blocks_module.v" into library work
+Parsing module <blocks_module>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\BCD_counter.v" into library work
+Parsing module <BCD_counter>.
+Analyzing Verilog file "C:\.Xilinx\Tetris_V2\Tetris.v" into library work
+Parsing module <Tetris>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Tetris>.
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 50: Using initial value of num1_pos_x since it is never assigned
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 51: Using initial value of num1_pos_y since it is never assigned
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 52: Using initial value of num2_pos_x since it is never assigned
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 53: Using initial value of num2_pos_y since it is never assigned
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 54: Using initial value of score_pos_x since it is never assigned
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 55: Using initial value of score_pos_y since it is never assigned
+WARNING:HDLCompiler:872 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 132: Using initial value of type since it is never assigned
+
+Elaborating module <clk_divider>.
+WARNING:HDLCompiler:413 - "C:\.Xilinx\Tetris_V2\clk_divider.v" Line 34: Result of 26-bit expression is truncated to fit in 25-bit target.
+
+Elaborating module <vga_driver>.
+
+Elaborating module <debounce>.
+WARNING:HDLCompiler:413 - "C:\.Xilinx\Tetris_V2\debounce.v" Line 44: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1127 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 79: Assignment to dPB5 ignored, since the identifier is never used
+
+Elaborating module <BCD_counter>.
+
+Elaborating module <chars>.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 106: Size mismatch in connection of port <rownum>. Formal port size is 3-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 110: Size mismatch in connection of port <rownum>. Formal port size is 3-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 114: Size mismatch in connection of port <rownum>. Formal port size is 3-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 121: Size mismatch in connection of port <rownum>. Formal port size is 3-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 125: Size mismatch in connection of port <rownum>. Formal port size is 3-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 129: Size mismatch in connection of port <rownum>. Formal port size is 3-bit while actual signal size is 10-bit.
+
+Elaborating module <blocks_module>.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 137: Size mismatch in connection of port <type>. Formal port size is 3-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\.Xilinx\Tetris_V2\Tetris.v" Line 138: Size mismatch in connection of port <rot>. Formal port size is 2-bit while actual signal size is 1-bit.
+
+Elaborating module <posedge_detect>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Tetris>.
+    Related source file is "C:\.Xilinx\Tetris_V2\Tetris.v".
+        LOW = 1'b0
+        HIGH = 1'b1
+        BOX_SIZE = 10'b0000001110
+        FONT_W = 10'b0000011001
+        FONT_H = 10'b0000101000
+        FONT_D = 10'b0000000101
+INFO:Xst:3210 - "C:\.Xilinx\Tetris_V2\Tetris.v" line 76: Output port <disabled> of the instance <debounce0> is unconnected or connected to loadless signal.
+    Found 10-bit register for signal <text_pos_x>.
+    Found 10-bit register for signal <text_pos_y>.
+    Found 3-bit register for signal <vga_rgb>.
+    Found 10-bit subtractor for signal <text_pos_x[9]_GND_1_o_sub_12_OUT> created at line 181.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_58_OUT> created at line 215.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_61_OUT> created at line 215.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_222_OUT> created at line 254.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_230_OUT> created at line 256.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_238_OUT> created at line 258.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_246_OUT> created at line 261.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_254_OUT> created at line 263.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_262_OUT> created at line 265.
+    Found 10-bit adder for signal <text_pos_x[9]_GND_1_o_add_15_OUT> created at line 185.
+    Found 11-bit adder for signal <n0378> created at line 194.
+    Found 10-bit adder for signal <text_pos_y[9]_GND_1_o_add_21_OUT> created at line 194.
+    Found 11-bit adder for signal <n0381> created at line 213.
+    Found 11-bit adder for signal <n0383> created at line 214.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_223_OUT<2:0>> created at line 254.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_231_OUT<2:0>> created at line 256.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_239_OUT<2:0>> created at line 258.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_247_OUT<2:0>> created at line 261.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_255_OUT<2:0>> created at line 263.
+    Found 3-bit subtractor for signal <GND_1_o_GND_1_o_sub_263_OUT<2:0>> created at line 265.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_1_o_blk_pixels0[3]_Mux_62_o> created at line 215.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_1_o_blk_pixels1[3]_Mux_70_o> created at line 216.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_1_o_blk_pixels2[3]_Mux_78_o> created at line 217.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_1_o_blk_pixels3[3]_Mux_86_o> created at line 218.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_1_o_pixels0_1[7]_Mux_223_o> created at line 254.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_1_o_pixels1_1[7]_Mux_231_o> created at line 256.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_1_o_pixels2_1[7]_Mux_239_o> created at line 258.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_1_o_pixels0_2[7]_Mux_247_o> created at line 261.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_1_o_pixels1_2[7]_Mux_255_o> created at line 263.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_1_o_pixels2_2[7]_Mux_263_o> created at line 265.
+    Found 10-bit comparator lessequal for signal <n0001> created at line 181
+    Found 10-bit comparator lessequal for signal <n0005> created at line 185
+    Found 11-bit comparator lessequal for signal <n0012> created at line 194
+    Found 11-bit comparator lessequal for signal <n0017> created at line 198
+    Found 10-bit comparator lessequal for signal <n0026> created at line 207
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_38_o> created at line 207
+    Found 10-bit comparator lessequal for signal <n0030> created at line 207
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_40_o> created at line 207
+    Found 10-bit comparator lessequal for signal <n0035> created at line 207
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_42_o> created at line 207
+    Found 10-bit comparator greater for signal <n0040> created at line 208
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_44_o> created at line 208
+    Found 10-bit comparator lessequal for signal <n0046> created at line 208
+    Found 10-bit comparator lessequal for signal <n0055> created at line 213
+    Found 11-bit comparator greater for signal <GND_1_o_BUS_0008_LessThan_54_o> created at line 213
+    Found 10-bit comparator lessequal for signal <n0060> created at line 214
+    Found 11-bit comparator greater for signal <GND_1_o_BUS_0009_LessThan_57_o> created at line 214
+    Found 10-bit comparator lessequal for signal <n0085> created at line 223
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_93_o> created at line 223
+    Found 10-bit comparator lessequal for signal <n0089> created at line 223
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_95_o> created at line 223
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_99_o> created at line 224
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_101_o> created at line 224
+    Found 10-bit comparator lessequal for signal <n0103> created at line 225
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_105_o> created at line 225
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_111_o> created at line 226
+    Found 10-bit comparator lessequal for signal <n0113> created at line 226
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_117_o> created at line 227
+    Found 10-bit comparator lessequal for signal <n0124> created at line 230
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_125_o> created at line 230
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_131_o> created at line 231
+    Found 10-bit comparator lessequal for signal <n0137> created at line 235
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_143_o> created at line 235
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_149_o> created at line 236
+    Found 10-bit comparator lessequal for signal <n0147> created at line 237
+    Found 10-bit comparator lessequal for signal <n0154> created at line 241
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_167_o> created at line 241
+    Found 10-bit comparator greater for signal <n0160> created at line 242
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_171_o> created at line 242
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_179_o> created at line 243
+    Found 10-bit comparator lessequal for signal <n0172> created at line 244
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_185_o> created at line 244
+    Found 10-bit comparator lessequal for signal <n0183> created at line 248
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_197_o> created at line 248
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_209_o> created at line 250
+    Found 10-bit comparator lessequal for signal <n0197> created at line 254
+    Found 10-bit comparator lessequal for signal <n0199> created at line 254
+    Found 10-bit comparator greater for signal <next_y[9]_GND_1_o_LessThan_220_o> created at line 254
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_221_o> created at line 254
+    Found 10-bit comparator lessequal for signal <n0211> created at line 256
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_229_o> created at line 256
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_237_o> created at line 258
+    Found 10-bit comparator lessequal for signal <n0231> created at line 261
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_245_o> created at line 261
+    Found 10-bit comparator lessequal for signal <n0242> created at line 263
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_253_o> created at line 263
+    Found 10-bit comparator greater for signal <next_x[9]_GND_1_o_LessThan_261_o> created at line 265
+    Summary:
+	inferred  20 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+	inferred  57 Comparator(s).
+	inferred  67 Multiplexer(s).
+Unit <Tetris> synthesized.
+
+Synthesizing Unit <clk_divider>.
+    Related source file is "C:\.Xilinx\Tetris_V2\clk_divider.v".
+    Found 1-bit register for signal <clk_1Hz>.
+    Found 25-bit register for signal <counter>.
+    Found 25-bit adder for signal <counter[24]_GND_2_o_add_2_OUT> created at line 34.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <clk_divider> synthesized.
+
+Synthesizing Unit <vga_driver>.
+    Related source file is "C:\.Xilinx\Tetris_V2\vga_driver.v".
+        H_ACTIVE = 10'b0111111011
+        H_FRONT = 10'b0000001100
+        H_PULSE = 10'b0001001011
+        H_BACK = 10'b0000100010
+        V_ACTIVE = 10'b0111011111
+        V_FRONT = 10'b0000001001
+        V_PULSE = 10'b0000000001
+        V_BACK = 10'b0000100000
+        H_ACTIVE_STATE = 2'b00
+        H_FRONT_STATE = 2'b01
+        H_PULSE_STATE = 2'b10
+        H_BACK_STATE = 2'b11
+        V_ACTIVE_STATE = 2'b00
+        V_FRONT_STATE = 2'b01
+        V_PULSE_STATE = 2'b10
+        V_BACK_STATE = 2'b11
+        LOW = 1'b0
+        HIGH = 1'b1
+    Found 10-bit register for signal <v_counter>.
+    Found 2-bit register for signal <h_state>.
+    Found 2-bit register for signal <v_state>.
+    Found 1-bit register for signal <line_done>.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <v_sync_reg>.
+    Found 10-bit register for signal <h_counter>.
+    Found finite state machine <FSM_0> for signal <h_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <v_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 10-bit adder for signal <h_counter[9]_GND_3_o_add_3_OUT> created at line 103.
+    Found 10-bit adder for signal <v_counter[9]_GND_3_o_add_36_OUT> created at line 126.
+    Found 10-bit 4-to-1 multiplexer for signal <h_counter[9]_h_counter[9]_mux_32_OUT> created at line 118.
+    Found 10-bit 4-to-1 multiplexer for signal <_n0151> created at line 140.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+	inferred  13 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <vga_driver> synthesized.
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:\.Xilinx\Tetris_V2\debounce.v".
+    Found 1-bit register for signal <debounced>.
+    Found 1-bit register for signal <debounced_prev>.
+    Found 16-bit register for signal <counter>.
+    Found 16-bit adder for signal <counter[15]_GND_4_o_add_2_OUT> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+Synthesizing Unit <BCD_counter>.
+    Related source file is "C:\.Xilinx\Tetris_V2\BCD_counter.v".
+    Found 4-bit register for signal <digit1>.
+    Found 4-bit register for signal <digit0>.
+    Found 4-bit register for signal <digit2>.
+    Found 4-bit adder for signal <digit0[3]_GND_5_o_add_2_OUT> created at line 25.
+    Found 4-bit adder for signal <digit1[3]_GND_5_o_add_4_OUT> created at line 31.
+    Found 4-bit adder for signal <digit2[3]_GND_5_o_add_5_OUT> created at line 35.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <BCD_counter> synthesized.
+
+Synthesizing Unit <chars>.
+    Related source file is "C:\.Xilinx\Tetris_V2\chars.v".
+    Found 128x8-bit Read Only RAM for signal <pixels>
+    Summary:
+	inferred   1 RAM(s).
+Unit <chars> synthesized.
+
+Synthesizing Unit <blocks_module>.
+    Related source file is "C:\.Xilinx\Tetris_V2\blocks_module.v".
+    Found 4x7-bit Read Only RAM for signal <_n0128>
+    Summary:
+	inferred   1 RAM(s).
+Unit <blocks_module> synthesized.
+
+Synthesizing Unit <posedge_detect>.
+    Related source file is "C:\.Xilinx\Tetris_V2\posedge_detect.v".
+    Found 1-bit register for signal <signal_delay>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <posedge_detect> synthesized.
+
+Synthesizing Unit <div_32u_4u>.
+    Related source file is "".
+    Found 36-bit adder for signal <n2401> created at line 0.
+    Found 36-bit adder for signal <GND_25_o_b[3]_add_1_OUT> created at line 0.
+    Found 35-bit adder for signal <n2405> created at line 0.
+    Found 35-bit adder for signal <GND_25_o_b[3]_add_3_OUT> created at line 0.
+    Found 34-bit adder for signal <n2409> created at line 0.
+    Found 34-bit adder for signal <GND_25_o_b[3]_add_5_OUT> created at line 0.
+    Found 33-bit adder for signal <n2413> created at line 0.
+    Found 33-bit adder for signal <GND_25_o_b[3]_add_7_OUT> created at line 0.
+    Found 32-bit adder for signal <n2417> created at line 0.
+    Found 32-bit adder for signal <a[31]_b[3]_add_9_OUT> created at line 0.
+    Found 32-bit adder for signal <n2421> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_11_OUT> created at line 0.
+    Found 32-bit adder for signal <n2425> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_13_OUT> created at line 0.
+    Found 32-bit adder for signal <n2429> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_15_OUT> created at line 0.
+    Found 32-bit adder for signal <n2433> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_17_OUT> created at line 0.
+    Found 32-bit adder for signal <n2437> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_19_OUT> created at line 0.
+    Found 32-bit adder for signal <n2441> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_21_OUT> created at line 0.
+    Found 32-bit adder for signal <n2445> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_23_OUT> created at line 0.
+    Found 32-bit adder for signal <n2449> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_25_OUT> created at line 0.
+    Found 32-bit adder for signal <n2453> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_27_OUT> created at line 0.
+    Found 32-bit adder for signal <n2457> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_29_OUT> created at line 0.
+    Found 32-bit adder for signal <n2461> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_31_OUT> created at line 0.
+    Found 32-bit adder for signal <n2465> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_33_OUT> created at line 0.
+    Found 32-bit adder for signal <n2469> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_35_OUT> created at line 0.
+    Found 32-bit adder for signal <n2473> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_37_OUT> created at line 0.
+    Found 32-bit adder for signal <n2477> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_39_OUT> created at line 0.
+    Found 32-bit adder for signal <n2481> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_41_OUT> created at line 0.
+    Found 32-bit adder for signal <n2485> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_43_OUT> created at line 0.
+    Found 32-bit adder for signal <n2489> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_45_OUT> created at line 0.
+    Found 32-bit adder for signal <n2493> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_47_OUT> created at line 0.
+    Found 32-bit adder for signal <n2497> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_49_OUT> created at line 0.
+    Found 32-bit adder for signal <n2501> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_51_OUT> created at line 0.
+    Found 32-bit adder for signal <n2505> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_53_OUT> created at line 0.
+    Found 32-bit adder for signal <n2509> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_55_OUT> created at line 0.
+    Found 32-bit adder for signal <n2513> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_57_OUT> created at line 0.
+    Found 32-bit adder for signal <n2517> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_59_OUT[31:0]> created at line 0.
+    Found 32-bit adder for signal <n2521> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_61_OUT[31:0]> created at line 0.
+    Found 32-bit adder for signal <n2525> created at line 0.
+    Found 32-bit adder for signal <a[31]_GND_25_o_add_63_OUT[31:0]> created at line 0.
+    Found 36-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 35-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 34-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 33-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0018> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0019> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0020> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0021> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0022> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0023> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0024> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0025> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0026> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0027> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0028> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0029> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0030> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0031> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0032> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0033> created at line 0
+    Summary:
+	inferred  64 Adder/Subtractor(s).
+	inferred  33 Comparator(s).
+	inferred 931 Multiplexer(s).
+Unit <div_32u_4u> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 7
+ 128x8-bit single-port Read Only RAM                   : 6
+ 4x7-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 158
+ 10-bit adder                                          : 4
+ 10-bit addsub                                         : 1
+ 11-bit adder                                          : 3
+ 11-bit subtractor                                     : 8
+ 16-bit adder                                          : 1
+ 25-bit adder                                          : 1
+ 3-bit subtractor                                      : 6
+ 32-bit adder                                          : 112
+ 33-bit adder                                          : 4
+ 34-bit adder                                          : 4
+ 35-bit adder                                          : 4
+ 36-bit adder                                          : 4
+ 4-bit adder                                           : 6
+# Registers                                            : 23
+ 1-bit register                                        : 10
+ 10-bit register                                       : 4
+ 16-bit register                                       : 1
+ 25-bit register                                       : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 6
+# Comparators                                          : 123
+ 10-bit comparator greater                             : 30
+ 10-bit comparator lessequal                           : 23
+ 11-bit comparator greater                             : 2
+ 11-bit comparator lessequal                           : 2
+ 32-bit comparator lessequal                           : 58
+ 33-bit comparator lessequal                           : 2
+ 34-bit comparator lessequal                           : 2
+ 35-bit comparator lessequal                           : 2
+ 36-bit comparator lessequal                           : 2
+# Multiplexers                                         : 1946
+ 1-bit 2-to-1 multiplexer                              : 1857
+ 1-bit 4-to-1 multiplexer                              : 4
+ 1-bit 8-to-1 multiplexer                              : 6
+ 10-bit 2-to-1 multiplexer                             : 10
+ 10-bit 4-to-1 multiplexer                             : 2
+ 3-bit 2-to-1 multiplexer                              : 57
+ 32-bit 2-to-1 multiplexer                             : 6
+ 4-bit 2-to-1 multiplexer                              : 4
+# FSMs                                                 : 2
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <BCD_counter>.
+The following registers are absorbed into counter <digit1>: 1 register on signal <digit1>.
+The following registers are absorbed into counter <digit0>: 1 register on signal <digit0>.
+The following registers are absorbed into counter <digit2>: 1 register on signal <digit2>.
+Unit <BCD_counter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Tetris>.
+The following registers are absorbed into accumulator <text_pos_y>: 1 register on signal <text_pos_y>.
+The following registers are absorbed into accumulator <text_pos_x>: 1 register on signal <text_pos_x>.
+Unit <Tetris> synthesized (advanced).
+
+Synthesizing (advanced) Unit <blocks_module>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0128> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <rot>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <blocks_module> synthesized (advanced).
+
+Synthesizing (advanced) Unit <chars>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_pixels> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 8-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(char,rownum)> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <pixels>        |          |
+    -----------------------------------------------------------------------
+Unit <chars> synthesized (advanced).
+
+Synthesizing (advanced) Unit <clk_divider>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <clk_divider> synthesized (advanced).
+
+Synthesizing (advanced) Unit <debounce>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <debounce> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 7
+ 128x8-bit single-port distributed Read Only RAM       : 6
+ 4x7-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 84
+ 10-bit adder                                          : 3
+ 11-bit adder                                          : 3
+ 11-bit subtractor                                     : 2
+ 3-bit subtractor                                      : 12
+ 32-bit adder carry in                                 : 64
+# Counters                                             : 8
+ 16-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 4-bit up counter                                      : 6
+# Accumulators                                         : 2
+ 10-bit up accumulator                                 : 1
+ 10-bit updown accumulator                             : 1
+# Registers                                            : 33
+ Flip-Flops                                            : 33
+# Comparators                                          : 123
+ 10-bit comparator greater                             : 30
+ 10-bit comparator lessequal                           : 23
+ 11-bit comparator greater                             : 2
+ 11-bit comparator lessequal                           : 2
+ 32-bit comparator lessequal                           : 58
+ 33-bit comparator lessequal                           : 2
+ 34-bit comparator lessequal                           : 2
+ 35-bit comparator lessequal                           : 2
+ 36-bit comparator lessequal                           : 2
+# Multiplexers                                         : 1942
+ 1-bit 2-to-1 multiplexer                              : 1857
+ 1-bit 4-to-1 multiplexer                              : 4
+ 1-bit 8-to-1 multiplexer                              : 6
+ 10-bit 2-to-1 multiplexer                             : 10
+ 10-bit 4-to-1 multiplexer                             : 2
+ 3-bit 2-to-1 multiplexer                              : 57
+ 32-bit 2-to-1 multiplexer                             : 6
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <Tetris>: instances <BCD_counter1>, <BCD_counter2> of unit <BCD_counter> are equivalent, second instance is removed
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <test_driver/FSM_0> on signal <h_state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <test_driver/FSM_1> on signal <v_state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+WARNING:Xst:1293 - FF/Latch <text_pos_y_0> has a constant value of 0 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Tetris> ...
+INFO:Xst:2261 - The FF/Latch <vga_rgb_0> in Unit <Tetris> is equivalent to the following FF/Latch, which will be removed : <vga_rgb_1> 
+WARNING:Xst:1293 - FF/Latch <text_pos_x_0> has a constant value of 1 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <vga_driver> ...
+
+Optimizing unit <BCD_counter> ...
+WARNING:Xst:1293 - FF/Latch <text_pos_x_8> has a constant value of 1 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <text_pos_x_9> has a constant value of 0 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <clk_modded/counter_24> (without init value) has a constant value of 0 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <debounce0/counter_14> has a constant value of 0 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <debounce0/counter_15> has a constant value of 0 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <text_pos_y_9> has a constant value of 0 in block <Tetris>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <vga_rgb_0> in Unit <Tetris> is equivalent to the following FF/Latch, which will be removed : <vga_rgb_1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Tetris, actual ratio is 46.
+FlipFlop test_driver/h_counter_0 has been replicated 1 time(s)
+FlipFlop test_driver/h_counter_1 has been replicated 1 time(s)
+FlipFlop test_driver/h_counter_2 has been replicated 1 time(s)
+FlipFlop test_driver/h_state_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop test_driver/h_state_FSM_FFd2 has been replicated 2 time(s)
+FlipFlop test_driver/v_state_FSM_FFd1 has been replicated 2 time(s)
+FlipFlop test_driver/v_state_FSM_FFd2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 110
+ Flip-Flops                                            : 110
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Tetris.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5048
+#      GND                         : 1
+#      INV                         : 12
+#      LUT1                        : 84
+#      LUT2                        : 91
+#      LUT3                        : 396
+#      LUT4                        : 151
+#      LUT5                        : 1330
+#      LUT6                        : 971
+#      MUXCY                       : 1035
+#      MUXF7                       : 56
+#      VCC                         : 1
+#      XORCY                       : 920
+# FlipFlops/Latches                : 110
+#      FD                          : 6
+#      FDE                         : 4
+#      FDR                         : 63
+#      FDRE                        : 34
+#      FDSE                        : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 6
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             110  out of  11440     0%  
+ Number of Slice LUTs:                 3035  out of   5720    53%  
+    Number used as Logic:              3035  out of   5720    53%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   3064
+   Number with an unused Flip Flop:    2954  out of   3064    96%  
+   Number with an unused LUT:            29  out of   3064     0%  
+   Number of fully used LUT-FF pairs:    81  out of   3064     2%  
+   Number of unique control sets:        15
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    102    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+osc                                | BUFGP                  | 110   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 71.582ns (Maximum Frequency: 13.970MHz)
+   Minimum input arrival time before clock: 4.842ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'osc'
+  Clock period: 71.582ns (frequency: 13.970MHz)
+  Total number of paths / destination ports: 28898002369579838000000000000000000 / 185
+-------------------------------------------------------------------------
+Delay:               71.582ns (Levels of Logic = 110)
+  Source:            test_driver/v_state_FSM_FFd2 (FF)
+  Destination:       vga_rgb_0 (FF)
+  Source Clock:      osc rising
+  Destination Clock: osc rising
+
+  Data Path: test_driver/v_state_FSM_FFd2 to vga_rgb_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             34   0.447   1.321  test_driver/v_state_FSM_FFd2 (test_driver/v_state_FSM_FFd2)
+     LUT3:I2->O           36   0.205   1.348  test_driver/Mmux_next_y21 (next_y<1>)
+     MUXCY:DI->O           1   0.145   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<1> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<2> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<3> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<4> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<5> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<6> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<7> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<8> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<8>)
+     MUXCY:CI->O           0   0.019   0.000  Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<9> (Msub_GND_1_o_GND_1_o_sub_58_OUT_cy<9>)
+     XORCY:CI->O         176   0.180   2.032  Msub_GND_1_o_GND_1_o_sub_58_OUT_xor<10> (GND_1_o_PWR_1_o_div_58/Madd_GND_25_o_b[3]_add_3_OUT_Madd_Madd_lut<12>)
+     LUT1:I0->O            1   0.205   0.000  GND_1_o_PWR_1_o_div_58/Madd_a[31]_GND_25_o_add_25_OUT_Madd_cy<20>_rt (GND_1_o_PWR_1_o_div_58/Madd_a[31]_GND_25_o_add_25_OUT_Madd_cy<20>_rt)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Madd_a[31]_GND_25_o_add_25_OUT_Madd_cy<20> (GND_1_o_PWR_1_o_div_58/Madd_a[31]_GND_25_o_add_25_OUT_Madd_cy<20>)
+     XORCY:CI->O           9   0.180   1.174  GND_1_o_PWR_1_o_div_58/Madd_a[31]_GND_25_o_add_25_OUT_Madd_xor<21> (GND_1_o_PWR_1_o_div_58/a[31]_GND_25_o_add_25_OUT<21>)
+     LUT6:I1->O           24   0.203   1.173  GND_1_o_PWR_1_o_div_58_OUT<19>21 (GND_1_o_PWR_1_o_div_58_OUT<19>2)
+     LUT6:I5->O            7   0.205   0.774  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_884_o1101 (GND_1_o_PWR_1_o_div_58/a[19]_a[31]_MUX_865_o)
+     LUT6:I5->O           21   0.205   1.114  GND_1_o_PWR_1_o_div_58_OUT<18>22 (GND_1_o_PWR_1_o_div_58_OUT<18>21)
+     LUT6:I5->O           41   0.205   1.420  GND_1_o_PWR_1_o_div_58_OUT<18>23 (GND_1_o_PWR_1_o_div_58_OUT<18>)
+     LUT6:I5->O           43   0.205   1.449  GND_1_o_PWR_1_o_div_58_OUT<17>22 (GND_1_o_PWR_1_o_div_58_OUT<17>21)
+     LUT6:I5->O           18   0.205   1.278  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_948_o191 (GND_1_o_PWR_1_o_div_58/a[18]_a[31]_MUX_930_o)
+     LUT6:I3->O            1   0.205   0.580  GND_1_o_PWR_1_o_div_58_OUT<16>21_SW2 (N2337)
+     LUT6:I5->O           38   0.205   1.377  GND_1_o_PWR_1_o_div_58_OUT<16>23 (GND_1_o_PWR_1_o_div_58_OUT<16>)
+     LUT6:I5->O           45   0.205   1.477  GND_1_o_PWR_1_o_div_58_OUT<15>22 (GND_1_o_PWR_1_o_div_58_OUT<15>21)
+     LUT5:I4->O            8   0.205   0.803  GND_1_o_PWR_1_o_div_58_OUT<15>24 (GND_1_o_PWR_1_o_div_58_OUT<15>)
+     LUT6:I5->O           50   0.205   1.776  GND_1_o_PWR_1_o_div_58_OUT<14>21 (GND_1_o_PWR_1_o_div_58_OUT<14>2)
+     LUT5:I2->O            5   0.205   1.079  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1044_o1101 (GND_1_o_PWR_1_o_div_58/a[19]_a[31]_MUX_1025_o)
+     LUT6:I0->O           28   0.203   1.235  GND_1_o_PWR_1_o_div_58_OUT<13>32 (GND_1_o_PWR_1_o_div_58_OUT<13>31)
+     LUT6:I5->O           46   0.205   1.595  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1076_o1231 (GND_1_o_PWR_1_o_div_58/a[30]_a[31]_MUX_1046_o)
+     LUT6:I4->O            2   0.203   0.721  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1108_o171_SW2_SW0 (N1724)
+     LUT6:I4->O            6   0.203   1.089  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1108_o171 (GND_1_o_PWR_1_o_div_58/a[16]_a[31]_MUX_1092_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<3>)
+     MUXCY:CI->O          85   0.019   1.779  GND_1_o_PWR_1_o_div_58/Mcompar_o<11>_cy<4> (GND_1_o_PWR_1_o_div_58_OUT<11>)
+     LUT5:I4->O            5   0.205   1.059  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1140_o161 (GND_1_o_PWR_1_o_div_58/a[15]_a[31]_MUX_1125_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<3>)
+     MUXCY:CI->O          88   0.213   1.799  GND_1_o_PWR_1_o_div_58/Mcompar_o<10>_cy<4> (GND_1_o_PWR_1_o_div_58_OUT<10>)
+     LUT3:I2->O            3   0.205   0.995  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1172_o151 (GND_1_o_PWR_1_o_div_58/a[14]_a[31]_MUX_1158_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<3>)
+     MUXCY:CI->O          72   0.213   1.693  GND_1_o_PWR_1_o_div_58/Mcompar_o<9>_cy<4> (GND_1_o_PWR_1_o_div_58_OUT<9>)
+     LUT5:I4->O            5   0.205   1.059  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1204_o141 (GND_1_o_PWR_1_o_div_58/a[13]_a[31]_MUX_1191_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<3>)
+     MUXCY:CI->O          96   0.213   1.851  GND_1_o_PWR_1_o_div_58/Mcompar_o<8>_cy<4> (GND_1_o_PWR_1_o_div_58_OUT<8>)
+     LUT3:I2->O            3   0.205   0.995  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1236_o131 (GND_1_o_PWR_1_o_div_58/a[12]_a[31]_MUX_1224_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<3>)
+     MUXCY:CI->O          80   0.213   1.746  GND_1_o_PWR_1_o_div_58/Mcompar_o<7>_cy<4> (GND_1_o_PWR_1_o_div_58_OUT<7>)
+     LUT5:I4->O            5   0.205   1.059  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1268_o171 (GND_1_o_PWR_1_o_div_58/a[16]_a[31]_MUX_1252_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_lut<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<4>)
+     MUXCY:CI->O         101   0.213   1.880  GND_1_o_PWR_1_o_div_58/Mcompar_o<6>_cy<5> (GND_1_o_PWR_1_o_div_58_OUT<6>)
+     LUT5:I4->O            6   0.205   0.992  GND_1_o_PWR_1_o_div_58/a[11]_a[31]_MUX_1321_o11 (GND_1_o_PWR_1_o_div_58/a[11]_a[31]_MUX_1321_o_bdd0)
+     LUT5:I1->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<4>)
+     MUXCY:CI->O          85   0.213   1.779  GND_1_o_PWR_1_o_div_58/Mcompar_o<5>_cy<5> (GND_1_o_PWR_1_o_div_58_OUT<5>)
+     LUT5:I4->O            5   0.205   1.059  GND_1_o_PWR_1_o_div_58/Mmux_a[0]_a[31]_MUX_1332_o151 (GND_1_o_PWR_1_o_div_58/a[14]_a[31]_MUX_1318_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_lut<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_lut<2>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<4>)
+     MUXCY:CI->O         109   0.213   1.901  GND_1_o_PWR_1_o_div_58/Mcompar_o<4>_cy<5> (GND_1_o_PWR_1_o_div_58_OUT<4>)
+     LUT3:I2->O            4   0.205   1.028  GND_1_o_PWR_1_o_div_58/a[8]_a[31]_MUX_1356_o1 (GND_1_o_PWR_1_o_div_58/a[8]_a[31]_MUX_1356_o)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<4>)
+     MUXCY:CI->O         119   0.213   1.928  GND_1_o_PWR_1_o_div_58/Mcompar_o<3>_cy<5> (GND_1_o_PWR_1_o_div_58_OUT<3>)
+     LUT3:I2->O            3   0.205   0.995  GND_1_o_PWR_1_o_div_58/n2519<7>1 (GND_1_o_PWR_1_o_div_58/n2519<7>)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<4>)
+     MUXCY:CI->O          89   0.019   1.805  GND_1_o_PWR_1_o_div_58/Mcompar_o<2>_cy<5> (GND_1_o_PWR_1_o_div_58_OUT<2>)
+     LUT5:I4->O            2   0.205   0.961  GND_1_o_PWR_1_o_div_58/n2523<6> (GND_1_o_PWR_1_o_div_58/n2523<6>)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<5> (GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<5>)
+     MUXCY:CI->O          30   0.213   1.264  GND_1_o_PWR_1_o_div_58/Mcompar_o<1>_cy<6> (GND_1_o_PWR_1_o_div_58_OUT<1>)
+     LUT5:I4->O            2   0.205   0.961  GND_1_o_PWR_1_o_div_58/n2394<5> (GND_1_o_PWR_1_o_div_58/n2394<5>)
+     LUT5:I0->O            1   0.203   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_lut<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<1> (GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<2> (GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<3> (GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<4> (GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<5> (GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<5>)
+     MUXCY:CI->O           1   0.213   0.580  GND_1_o_PWR_1_o_div_58/Mcompar_o<0>_cy<6> (GND_1_o_PWR_1_o_div_58_OUT<0>)
+     LUT5:I4->O            2   0.205   0.617  GND_1_o_next_y[9]_AND_20_o211 (GND_1_o_next_y[9]_AND_20_o21)
+     LUT6:I5->O            1   0.205   0.000  vga_rgb_2_glue_set (vga_rgb_2_glue_set)
+     FDR:D                     0.102          vga_rgb_2
+    ----------------------------------------
+    Total                     71.582ns (14.982ns logic, 56.600ns route)
+                                       (20.9% logic, 79.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'osc'
+  Total number of paths / destination ports: 97 / 88
+-------------------------------------------------------------------------
+Offset:              4.842ns (Levels of Logic = 4)
+  Source:            right (PAD)
+  Destination:       text_pos_x_3 (FF)
+  Destination Clock: osc rising
+
+  Data Path: right to text_pos_x_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.961  right_IBUF (right_IBUF)
+     LUT6:I1->O            1   0.203   0.944  _n0448_inv22 (_n0448_inv_bdd0)
+     LUT6:I0->O            7   0.203   1.002  _n0448_inv1 (_n0448_inv)
+     LUT4:I1->O            1   0.205   0.000  text_pos_x_3_glue_rst (text_pos_x_3_glue_rst)
+     FD:D                      0.102          text_pos_x_3
+    ----------------------------------------
+    Total                      4.842ns (1.935ns logic, 2.907ns route)
+                                       (40.0% logic, 60.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'osc'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            vga_rgb_0 (FF)
+  Destination:       vga_rgb<1> (PAD)
+  Source Clock:      osc rising
+
+  Data Path: vga_rgb_0 to vga_rgb<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.616  vga_rgb_0 (vga_rgb_0)
+     OBUF:I->O                 2.571          vga_rgb_1_OBUF (vga_rgb<1>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock osc
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+osc            |   71.582|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 33.25 secs
+ 
+--> 
+
+Total memory usage is 4556072 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

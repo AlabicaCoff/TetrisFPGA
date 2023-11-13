@@ -1,0 +1,9 @@
+[Inputs]
+=char[3:0]=
+=rownum[2:0]=
+[Outputs]
+=pixels[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel chars
+

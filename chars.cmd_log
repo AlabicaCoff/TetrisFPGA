@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/.Xilinx/Tetris_V2/chars.v -lang verilog -prj Tetris_V2 -o chars.spl -module chars -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 chars.spl C:/.Xilinx/Tetris_V2/chars.sym 

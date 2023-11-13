@@ -1,0 +1,12 @@
+[Inputs]
+clk
+rst
+increment
+[Outputs]
+=digit2[3:0]=
+=digit1[3:0]=
+=digit0[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel BCD_counter
+

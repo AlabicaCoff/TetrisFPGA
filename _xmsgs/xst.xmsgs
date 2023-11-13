@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 50: Using initial value of <arg fmt="%s" index="1">num1_pos_x</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 51: Using initial value of <arg fmt="%s" index="1">num1_pos_y</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 52: Using initial value of <arg fmt="%s" index="1">num2_pos_x</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 53: Using initial value of <arg fmt="%s" index="1">num2_pos_y</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 54: Using initial value of <arg fmt="%s" index="1">score_pos_x</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 55: Using initial value of <arg fmt="%s" index="1">score_pos_y</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 132: Using initial value of <arg fmt="%s" index="1">type</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\.Xilinx\Tetris_V2\clk_divider.v" Line 34: Result of <arg fmt="%d" index="1">26</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\.Xilinx\Tetris_V2\debounce.v" Line 44: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 79: Assignment to <arg fmt="%s" index="1">dPB5</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 106: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 110: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 114: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 121: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 125: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 129: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 137: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">type</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 138: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rot</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debounce0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0128</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_pixels</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">Tetris</arg>&gt;: instances &lt;<arg fmt="%s" index="2">BCD_counter1</arg>&gt;, &lt;<arg fmt="%s" index="3">BCD_counter2</arg>&gt; of unit &lt;<arg fmt="%s" index="4">BCD_counter</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">text_pos_y_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">text_pos_x_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">text_pos_x_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">text_pos_x_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">clk_modded/counter_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">debounce0/counter_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">debounce0/counter_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">text_pos_y_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; </arg>
+</msg>
+
+</messages>

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/.Xilinx/Tetris_V2/BCD_counter.v -lang verilog -prj Tetris_V2 -o BCD_counter.spl -module BCD_counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 BCD_counter.spl C:/.Xilinx/Tetris_V2/BCD_counter.sym 

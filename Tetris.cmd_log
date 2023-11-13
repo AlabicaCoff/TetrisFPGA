@@ -1,0 +1,516 @@
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "C:/.Xilinx/Tetris_V2/Tetris.xst" -ofn "C:/.Xilinx/Tetris_V2/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Tetris.ucf -p xc6slx9-tqg144-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 

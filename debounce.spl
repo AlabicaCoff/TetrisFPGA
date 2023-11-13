@@ -1,0 +1,10 @@
+[Inputs]
+raw
+clk
+[Outputs]
+enabled
+disabled
+[BiDir]
+[ATTRIBUTES]
+VeriModel debounce
+
