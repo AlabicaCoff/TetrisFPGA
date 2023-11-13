@@ -76,6 +76,8 @@
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clk_divider.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="debounce.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="debounce.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="randomizor.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="randomizor.vf"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="tetris.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="tetris.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="tetris.drc" xil_pn:subbranch="FPGAConfiguration"/>
@@ -89,35 +91,36 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699839218" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1699839218">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5933779224494414263" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699839220" xil_pn:in_ck="4190055704256460465" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5933779224494414263" xil_pn:start_ts="1699839218">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="randomizor.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1699839220" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1611242634501987840" xil_pn:start_ts="1699839220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1611242634501987840" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699839220" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1699839220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699839220" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4513403397660539211" xil_pn:start_ts="1699839220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4513403397660539211" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699839220" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1699839220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745955965653" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699839220" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="9170329442808597322" xil_pn:start_ts="1699839220">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576004" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="9170329442808597322" xil_pn:start_ts="1699576004">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1699576041" xil_pn:in_ck="5356854989643363526" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3141046046373223960" xil_pn:start_ts="1699576004">
+    <transform xil_pn:end_ts="1699849015" xil_pn:in_ck="-5203836848720716778" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3141046046373223960" xil_pn:start_ts="1699848912">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -135,11 +138,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1699576041" xil_pn:in_ck="4045707174321255" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5069202360785117085" xil_pn:start_ts="1699576041">
+    <transform xil_pn:end_ts="1699839313" xil_pn:in_ck="4045707174321255" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5069202360785117085" xil_pn:start_ts="1699839313">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1699576049" xil_pn:in_ck="-2077272473201985336" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2744906277533874143" xil_pn:start_ts="1699576041">
+    <transform xil_pn:end_ts="1699849022" xil_pn:in_ck="-2077272473201985336" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2744906277533874143" xil_pn:start_ts="1699849015">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Tetris.bld"/>
@@ -148,7 +151,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1699576099" xil_pn:in_ck="-2075740894216720887" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="6093601622908603872" xil_pn:start_ts="1699576049">
+    <transform xil_pn:end_ts="1699849077" xil_pn:in_ck="-2075740894216720887" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="6093601622908603872" xil_pn:start_ts="1699849022">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Tetris.pcf"/>
@@ -161,7 +164,7 @@
       <outfile xil_pn:name="Tetris_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1699576134" xil_pn:in_ck="3261092077697291234" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-6780099238861732004" xil_pn:start_ts="1699576099">
+    <transform xil_pn:end_ts="1699849128" xil_pn:in_ck="3261092077697291234" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-6780099238861732004" xil_pn:start_ts="1699849077">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Tetris.ncd"/>
@@ -175,8 +178,9 @@
       <outfile xil_pn:name="Tetris_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1699576151" xil_pn:in_ck="4045707174313630" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1699576134">
+    <transform xil_pn:end_ts="1699849146" xil_pn:in_ck="4045707174313630" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1699849128">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Tetris.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
@@ -187,7 +191,16 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1699576134" xil_pn:in_ck="-2277909320271628155" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1699576128">
+    <transform xil_pn:end_ts="1699706683" xil_pn:in_ck="5530874675163272" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-5324886243551662533" xil_pn:start_ts="1699706677">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1699849128" xil_pn:in_ck="-2277909320271628155" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1699849119">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Tetris.twr"/>

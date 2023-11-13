@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-11-09T01:18:31</DateModified>
+  <DateModified>2023-11-13T08:33:07</DateModified>
   <ModuleName>Tetris</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/.Xilinx/Tetris_V2/iseconfig/Tetris.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/.Xilinx/Tetris_V2\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2023-11-12T23:29:03</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/Ponda/Downloads/TETRISS/Tetris_V2/iseconfig/Tetris.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Ponda/Downloads/TETRISS/Tetris_V2\</ImplementationReportsDirectory>
   <DateInitialized>2023-11-08T17:59:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -29,18 +29,30 @@ module calc_cur_blk(
     output reg [7:0] blk_3,
     output reg [7:0] blk_4,
     output reg [2:0] width,
-    output reg [2:0] height
+    output reg [2:0] height,
+	 output reg [2:0] blk_color
     );
     
     always @ (*) begin
         case (piece)
             0: begin
-                 blk_1 = 256;
-                 blk_2 = 256;
-                 blk_3 = 256;
-                 blk_4 = 256;
-                 width = 0;
-                 height = 0;
+                 if (rot == 1 || rot == 3) begin
+                     blk_1 = (pos_y * block_wide) + pos_x;
+                     blk_2 = ((pos_y + 1) * block_wide) + pos_x;
+                     blk_3 = ((pos_y + 2) * block_wide) + pos_x;
+                     blk_4 = ((pos_y + 3) * block_wide) + pos_x;
+                     width = 1;
+                     height = 4;
+
+                 end else begin
+                     blk_1 = (pos_y * block_wide) + pos_x;
+                     blk_2 = (pos_y * block_wide) + pos_x + 1;
+                     blk_3 = (pos_y * block_wide) + pos_x + 2;
+                     blk_4 = (pos_y * block_wide) + pos_x + 3;
+                     width = 4;
+                     height = 1;
+                 end
+							blk_color = 3'b111;
             end
             1: begin
                  if (rot == 1 || rot == 3) begin
@@ -50,6 +62,7 @@ module calc_cur_blk(
                      blk_4 = ((pos_y + 3) * block_wide) + pos_x;
                      width = 1;
                      height = 4;
+
                  end else begin
                      blk_1 = (pos_y * block_wide) + pos_x;
                      blk_2 = (pos_y * block_wide) + pos_x + 1;
@@ -58,6 +71,7 @@ module calc_cur_blk(
                      width = 4;
                      height = 1;
                  end
+							blk_color = 3'b111;
             end
             2: begin
                 blk_1 = (pos_y * block_wide) + pos_x;
@@ -66,6 +80,7 @@ module calc_cur_blk(
                 blk_4 = ((pos_y + 1) * block_wide) + pos_x + 1;
                 width = 2;
                 height = 2;
+					blk_color = 3'b101;
             end
             3: begin
                 case (rot)
@@ -101,7 +116,9 @@ module calc_cur_blk(
                         width = 2;
                         height = 3;
                     end
+
                 endcase
+							blk_color = 3'b100;
             end
             4: begin
                 if (rot == 0 || rot == 2) begin
@@ -119,6 +136,7 @@ module calc_cur_blk(
                     width = 2;
                     height = 3;
                 end
+					blk_color = 3'b011;						
             end
             5: begin
                 if (rot == 0 || rot == 2) begin
@@ -136,6 +154,7 @@ module calc_cur_blk(
                     width = 2;
                     height = 3;
                 end
+							blk_color = 3'b010;
             end
             6: begin
                 case (rot)
@@ -171,7 +190,9 @@ module calc_cur_blk(
                         width = 3;
                         height = 2;
                     end
+							
                 endcase
+					 blk_color = 3'b001;
             end
             7: begin
                 case (rot)
@@ -208,6 +229,7 @@ module calc_cur_blk(
                         height = 2;
                     end
                 endcase
+							blk_color = 3'b110;
             end
         endcase
     end

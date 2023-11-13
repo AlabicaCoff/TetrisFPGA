@@ -5,103 +5,505 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 50: Using initial value of <arg fmt="%s" index="1">num1_pos_x</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 139: Port <arg fmt="%s" index="1">rot</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 51: Using initial value of <arg fmt="%s" index="1">num1_pos_y</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 182: Port <arg fmt="%s" index="1">disabled</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 52: Using initial value of <arg fmt="%s" index="1">num2_pos_x</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 187: Port <arg fmt="%s" index="1">disabled</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 53: Using initial value of <arg fmt="%s" index="1">num2_pos_y</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 192: Port <arg fmt="%s" index="1">disabled</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 54: Using initial value of <arg fmt="%s" index="1">score_pos_x</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 197: Port <arg fmt="%s" index="1">disabled</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 55: Using initial value of <arg fmt="%s" index="1">score_pos_y</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 202: Port <arg fmt="%s" index="1">disabled</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 132: Using initial value of <arg fmt="%s" index="1">type</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 233: Port <arg fmt="%s" index="1">blk_color</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\.Xilinx\Tetris_V2\clk_divider.v" Line 34: Result of <arg fmt="%d" index="1">26</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 33: Using initial value of <arg fmt="%s" index="1">num2_pos_x</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\.Xilinx\Tetris_V2\debounce.v" Line 44: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 34: Using initial value of <arg fmt="%s" index="1">num2_pos_y</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 79: Assignment to <arg fmt="%s" index="1">dPB5</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 35: Using initial value of <arg fmt="%s" index="1">score_pos_x</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 106: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 36: Using initial value of <arg fmt="%s" index="1">score_pos_y</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 110: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 116: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">score</arg>&gt;. Formal port size is <arg fmt="%d" index="2">12</arg>-bit while actual signal size is <arg fmt="%d" index="1">9</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 114: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\randomizer.v" Line 34: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 121: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 41: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 125: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 42: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 129: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 43: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 137: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">type</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 49: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\.Xilinx\Tetris_V2\Tetris.v" Line 138: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rot</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 50: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\.Xilinx\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debounce0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 51: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 60: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 61: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 62: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 68: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 69: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 70: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 78: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 79: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 80: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 88: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 89: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 90: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 91: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 97: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 98: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 99: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 105: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 106: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 107: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 112: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 113: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 114: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 115: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 125: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 126: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 127: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 128: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 133: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 134: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 135: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 144: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 145: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 146: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 150: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 151: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 152: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 153: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 162: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 163: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 164: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 165: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 171: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 172: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 173: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 179: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 180: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 181: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 187: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 188: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 189: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 201: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 202: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 203: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 208: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 210: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 211: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 216: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 217: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 218: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 224: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 225: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 226: Result of <arg fmt="%d" index="1">12</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_cur_blk.v" Line 227: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 143: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">block_wide</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 158: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 164: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 170: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rownum</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">10</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\debounce.v" Line 26: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_test_pos_rot.v" Line 40: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_test_pos_rot.v" Line 43: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_test_pos_rot.v" Line 47: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_test_pos_rot.v" Line 53: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\calc_test_pos_rot.v" Line 56: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 254: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">bcd</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 399: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 354: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 277: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 286: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 298: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 58: Net &lt;<arg fmt="%s" index="1">next_pos_x[3]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 59: Net &lt;<arg fmt="%s" index="1">next_pos_y[4]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 100: Net &lt;<arg fmt="%s" index="1">digit1_1[3]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 101: Net &lt;<arg fmt="%s" index="1">digit2_1[3]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 116: Net &lt;<arg fmt="%s" index="1">digit_0_1</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v" Line 139: Input port <arg fmt="%s" index="1">rot[1]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">rot</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">calc_next_blk</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">139</arg>: Output port &lt;<arg fmt="%s" index="3">width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">calc_next_blk</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">139</arg>: Output port &lt;<arg fmt="%s" index="3">height</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">calc_next_blk</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">182</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debouncer_btn_rotate</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">187</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debouncer_btn_left</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">192</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debouncer_btn_right</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">197</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debouncer_btn_down</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">202</arg>: Output port &lt;<arg fmt="%s" index="3">disabled</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">debouncer_btn_p</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Ponda\Downloads\TETRISS\Tetris_V2\Tetris.v</arg>&quot; line <arg fmt="%s" index="2">233</arg>: Output port &lt;<arg fmt="%s" index="3">blk_color</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">calc_test_blk</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">next_pos_x</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">next_pos_y</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">digit1_1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">digit2_1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">digit_0_1</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="3019" delta="old" >HDL ADVISOR - <arg fmt="%s" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">fallen_pieces</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">score</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">seg&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
 <msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 </msg>
 
-<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0128</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">seg_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bcd2sevensegment4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;seg_4&gt; &lt;seg_3&gt; &lt;seg_2&gt; &lt;seg_1&gt; &lt;seg_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">seg_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bcd2sevensegment4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">seg_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bcd2sevensegment4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_blk_color</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
 <msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_pixels</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
 </msg>
 
-<msg type="warning" file="Xst" num="1989" delta="old" >Unit &lt;<arg fmt="%s" index="1">Tetris</arg>&gt;: instances &lt;<arg fmt="%s" index="2">BCD_counter1</arg>&gt;, &lt;<arg fmt="%s" index="3">BCD_counter2</arg>&gt; of unit &lt;<arg fmt="%s" index="4">BCD_counter</arg>&gt; are equivalent, second instance is removed
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">text_pos_y_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; </arg>
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">text_pos_x_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">text_pos_x_8</arg>&gt; has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">text_pos_x_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">clk_modded/counter_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">bcd2sevensegment4/seg_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">debounce0/counter_14</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">tmp_MN_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;tmp_MN_1&gt; &lt;tmp_MN_2&gt; &lt;tmp_MN_3&gt; &lt;tmp_MN_4&gt; &lt;tmp_MN_5&gt; &lt;tmp_MN_6&gt; &lt;tmp_MN_7&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">debounce0/counter_15</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_10&gt; &lt;debouncer_btn_right/counter_10&gt; &lt;debouncer_btn_rotate/counter_10&gt; &lt;debouncer_btn_left/counter_10&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">text_pos_y_9</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Tetris</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_11&gt; &lt;debouncer_btn_right/counter_11&gt; &lt;debouncer_btn_rotate/counter_11&gt; &lt;debouncer_btn_left/counter_11&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_12&gt; &lt;debouncer_btn_right/counter_12&gt; &lt;debouncer_btn_rotate/counter_12&gt; &lt;debouncer_btn_left/counter_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_13&gt; &lt;debouncer_btn_right/counter_13&gt; &lt;debouncer_btn_rotate/counter_13&gt; &lt;debouncer_btn_left/counter_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_14&gt; &lt;debouncer_btn_right/counter_14&gt; &lt;debouncer_btn_rotate/counter_14&gt; &lt;debouncer_btn_left/counter_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_15&gt; &lt;debouncer_btn_right/counter_15&gt; &lt;debouncer_btn_rotate/counter_15&gt; &lt;debouncer_btn_left/counter_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_0&gt; &lt;debouncer_btn_right/counter_0&gt; &lt;debouncer_btn_rotate/counter_0&gt; &lt;debouncer_btn_left/counter_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_1&gt; &lt;debouncer_btn_right/counter_1&gt; &lt;debouncer_btn_rotate/counter_1&gt; &lt;debouncer_btn_left/counter_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_2&gt; &lt;debouncer_btn_right/counter_2&gt; &lt;debouncer_btn_rotate/counter_2&gt; &lt;debouncer_btn_left/counter_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_3&gt; &lt;debouncer_btn_right/counter_3&gt; &lt;debouncer_btn_rotate/counter_3&gt; &lt;debouncer_btn_left/counter_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_4&gt; &lt;debouncer_btn_right/counter_4&gt; &lt;debouncer_btn_rotate/counter_4&gt; &lt;debouncer_btn_left/counter_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_5&gt; &lt;debouncer_btn_right/counter_5&gt; &lt;debouncer_btn_rotate/counter_5&gt; &lt;debouncer_btn_left/counter_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_6&gt; &lt;debouncer_btn_right/counter_6&gt; &lt;debouncer_btn_rotate/counter_6&gt; &lt;debouncer_btn_left/counter_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_7&gt; &lt;debouncer_btn_right/counter_7&gt; &lt;debouncer_btn_rotate/counter_7&gt; &lt;debouncer_btn_left/counter_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_8&gt; &lt;debouncer_btn_right/counter_8&gt; &lt;debouncer_btn_rotate/counter_8&gt; &lt;debouncer_btn_left/counter_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">debouncer_btn_p/counter_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Tetris</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;debouncer_btn_down/counter_9&gt; &lt;debouncer_btn_right/counter_9&gt; &lt;debouncer_btn_rotate/counter_9&gt; &lt;debouncer_btn_left/counter_9&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="old" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">Tetris</arg>&gt;, final ratio is <arg fmt="%i" index="2">131</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

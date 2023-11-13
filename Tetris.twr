@@ -2,9 +2,8 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
--n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf
-Tetris.ucf
+C:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf
 
 Design file:              Tetris.ncd
 Physical constraint file: Tetris.pcf
@@ -33,28 +32,55 @@ Data Sheet report:
 All values displayed in nanoseconds (ns)
 
 Setup/Hold to clock osc
-------------+------------+------------+------------+------------+------------------+--------+
-            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
-Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
-------------+------------+------------+------------+------------+------------------+--------+
-down        |    4.579(R)|      SLOW  |   -0.493(R)|      SLOW  |osc_BUFGP         |   0.000|
-increment   |    1.600(R)|      SLOW  |   -0.699(R)|      SLOW  |osc_BUFGP         |   0.000|
-left        |    4.205(R)|      SLOW  |   -0.550(R)|      SLOW  |osc_BUFGP         |   0.000|
-reset       |    5.414(R)|      SLOW  |   -1.298(R)|      FAST  |osc_BUFGP         |   0.000|
-right       |    3.720(R)|      SLOW  |   -0.939(R)|      FAST  |osc_BUFGP         |   0.000|
-rotate      |    3.614(R)|      SLOW  |   -1.854(R)|      FAST  |osc_BUFGP         |   0.000|
-------------+------------+------------+------------+------------+------------------+--------+
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+btn_down      |    0.555(R)|      SLOW  |    0.323(R)|      SLOW  |osc_BUFGP         |   0.000|
+btn_left      |    0.379(R)|      FAST  |    0.509(R)|      SLOW  |osc_BUFGP         |   0.000|
+btn_play_pause|    0.286(R)|      FAST  |    0.660(R)|      SLOW  |osc_BUFGP         |   0.000|
+btn_right     |    0.244(R)|      FAST  |    0.672(R)|      SLOW  |osc_BUFGP         |   0.000|
+btn_rotate    |    0.717(R)|      SLOW  |    0.146(R)|      SLOW  |osc_BUFGP         |   0.000|
+sw_reset      |   12.519(R)|      SLOW  |   -0.541(R)|      FAST  |osc_BUFGP         |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
 
 Clock osc to Pad
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-h_sync      |         7.740(R)|      SLOW  |         4.003(R)|      FAST  |osc_BUFGP         |   0.000|
-v_sync      |         7.907(R)|      SLOW  |         4.103(R)|      FAST  |osc_BUFGP         |   0.000|
-vga_rgb<0>  |         7.400(R)|      SLOW  |         3.817(R)|      FAST  |osc_BUFGP         |   0.000|
-vga_rgb<1>  |         7.209(R)|      SLOW  |         3.690(R)|      FAST  |osc_BUFGP         |   0.000|
-vga_rgb<2>  |         7.405(R)|      SLOW  |         3.789(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<0>      |         7.925(R)|      SLOW  |         4.136(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<1>      |         8.054(R)|      SLOW  |         4.243(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<2>      |         7.721(R)|      SLOW  |         4.022(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<3>      |         8.108(R)|      SLOW  |         4.247(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<4>      |         7.522(R)|      SLOW  |         3.904(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<5>      |         8.575(R)|      SLOW  |         4.636(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<6>      |         8.567(R)|      SLOW  |         4.599(R)|      FAST  |osc_BUFGP         |   0.000|
+LED<7>      |         8.047(R)|      SLOW  |         4.315(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<0>       |         7.532(R)|      SLOW  |         3.892(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<1>       |         7.576(R)|      SLOW  |         3.895(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<2>       |         7.436(R)|      SLOW  |         3.807(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<3>       |         7.415(R)|      SLOW  |         3.798(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<4>       |         7.159(R)|      SLOW  |         3.630(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<5>       |         7.161(R)|      SLOW  |         3.625(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<6>       |         7.035(R)|      SLOW  |         3.558(R)|      FAST  |osc_BUFGP         |   0.000|
+MN<7>       |         7.165(R)|      SLOW  |         3.662(R)|      FAST  |osc_BUFGP         |   0.000|
+common<0>   |         7.435(R)|      SLOW  |         3.855(R)|      FAST  |osc_BUFGP         |   0.000|
+common<1>   |         7.852(R)|      SLOW  |         4.151(R)|      FAST  |osc_BUFGP         |   0.000|
+common<2>   |         7.267(R)|      SLOW  |         3.726(R)|      FAST  |osc_BUFGP         |   0.000|
+common<3>   |         6.749(R)|      SLOW  |         3.399(R)|      FAST  |osc_BUFGP         |   0.000|
+h_sync      |         7.918(R)|      SLOW  |         4.219(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<0>  |         8.334(R)|      SLOW  |         4.363(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<1>  |         7.945(R)|      SLOW  |         4.119(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<2>  |         7.996(R)|      SLOW  |         4.116(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<3>  |         7.838(R)|      SLOW  |         4.027(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<4>  |         7.599(R)|      SLOW  |         3.900(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<5>  |         6.916(R)|      SLOW  |         3.528(R)|      FAST  |osc_BUFGP         |   0.000|
+segment<6>  |         6.754(R)|      SLOW  |         3.389(R)|      FAST  |osc_BUFGP         |   0.000|
+v_sync      |         7.161(R)|      SLOW  |         3.684(R)|      FAST  |osc_BUFGP         |   0.000|
+vga_rgb<0>  |         8.713(R)|      SLOW  |         4.689(R)|      FAST  |osc_BUFGP         |   0.000|
+vga_rgb<1>  |         8.211(R)|      SLOW  |         4.397(R)|      FAST  |osc_BUFGP         |   0.000|
+vga_rgb<2>  |         7.708(R)|      SLOW  |         4.040(R)|      FAST  |osc_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock osc
@@ -62,18 +88,18 @@ Clock to Setup on destination clock osc
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-osc            |   66.817|         |         |         |
+osc            |   27.213|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri Nov 10 07:28:53 2023 
+Analysis completed Mon Nov 13 11:18:44 2023 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 4609 MB
+Peak Memory Usage: 4629 MB
 
 
 

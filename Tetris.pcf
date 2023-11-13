@@ -1,21 +1,48 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Nov 10 07:28:17 2023
+// Written by: Map P.20131013 on Mon Nov 13 11:17:51 2023
 //! **************************************************************************
 
 SCHEMATIC START;
 COMP "osc" LOCATE = SITE "P123" LEVEL 1;
-COMP "left" LOCATE = SITE "P45" LEVEL 1;
-COMP "down" LOCATE = SITE "P47" LEVEL 1;
+COMP "btn_play_pause" LOCATE = SITE "P51" LEVEL 1;
+COMP "segment<0>" LOCATE = SITE "P41" LEVEL 1;
+COMP "segment<1>" LOCATE = SITE "P40" LEVEL 1;
+COMP "segment<2>" LOCATE = SITE "P35" LEVEL 1;
+COMP "segment<3>" LOCATE = SITE "P34" LEVEL 1;
+COMP "segment<4>" LOCATE = SITE "P32" LEVEL 1;
+COMP "segment<5>" LOCATE = SITE "P29" LEVEL 1;
+COMP "segment<6>" LOCATE = SITE "P27" LEVEL 1;
 COMP "vga_rgb<0>" LOCATE = SITE "P22" LEVEL 1;
 COMP "vga_rgb<1>" LOCATE = SITE "P17" LEVEL 1;
 COMP "vga_rgb<2>" LOCATE = SITE "P15" LEVEL 1;
-COMP "right" LOCATE = SITE "P46" LEVEL 1;
-COMP "reset" LOCATE = SITE "P55" LEVEL 1;
-COMP "increment" LOCATE = SITE "P51" LEVEL 1;
+COMP "MN<0>" LOCATE = SITE "P95" LEVEL 1;
+COMP "MN<1>" LOCATE = SITE "P94" LEVEL 1;
+COMP "MN<2>" LOCATE = SITE "P93" LEVEL 1;
+COMP "MN<3>" LOCATE = SITE "P92" LEVEL 1;
+COMP "MN<4>" LOCATE = SITE "P88" LEVEL 1;
+COMP "MN<5>" LOCATE = SITE "P87" LEVEL 1;
+COMP "MN<6>" LOCATE = SITE "P85" LEVEL 1;
+COMP "MN<7>" LOCATE = SITE "P84" LEVEL 1;
+COMP "common<0>" LOCATE = SITE "P44" LEVEL 1;
+COMP "common<1>" LOCATE = SITE "P43" LEVEL 1;
+COMP "common<2>" LOCATE = SITE "P33" LEVEL 1;
+COMP "common<3>" LOCATE = SITE "P30" LEVEL 1;
+COMP "btn_right" LOCATE = SITE "P46" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P82" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P81" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P80" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P79" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "P78" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "P75" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P74" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P67" LEVEL 1;
 COMP "h_sync" LOCATE = SITE "P12" LEVEL 1;
+COMP "btn_left" LOCATE = SITE "P45" LEVEL 1;
+COMP "btn_down" LOCATE = SITE "P47" LEVEL 1;
 COMP "v_sync" LOCATE = SITE "P10" LEVEL 1;
-COMP "rotate" LOCATE = SITE "P48" LEVEL 1;
-PIN rotate_pin<0> = BEL "rotate" PINNAME PAD;
-PIN "rotate_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "btn_rotate" LOCATE = SITE "P48" LEVEL 1;
+PIN btn_rotate_pin<0> = BEL "btn_rotate" PINNAME PAD;
+PIN "btn_rotate_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "sw_reset" LOCATE = SITE "P62" LEVEL 1;
 SCHEMATIC END;
 
